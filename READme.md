@@ -1,4 +1,4 @@
-<h1>>Triangle Detector </h1>
+<h1>Triangle Detector </h1>
 
 <b>Description</b>
 
