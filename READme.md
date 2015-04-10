@@ -7,13 +7,13 @@ April 10th, 2015 | Erica Cha
 
 <b>Technologies</b>
 
-JavaScript
-Mocha.js
-Chai.js
-jQuery
-HTML
-CSS
-Bootstrap
+JavaScript<br>
+Mocha.js<br>
+Chai.js<br>
+jQuery<br>
+HTML<br>
+CSS<br>
+Bootstrap<br>
 
 
 <b>Description</b>
