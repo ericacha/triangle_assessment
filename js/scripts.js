@@ -6,7 +6,7 @@ var s3 = parseInt(s3);
 
 var type = "";
 
-if (s1 != s2 != s3) {
+if ((s1 != s2 != s3) || (s1 != s3 != s2)){
   type = "scalene";
 } else if (s1 === s2 === s3) {
   type = "triangle";
@@ -21,14 +21,15 @@ return type;
 
 };
 
+$(document).ready(function() {
+  $("form#triangle").submit(function(event){
+    var s1,s2,s3 = parseInt($("input#s1,s2,s3").val());
+    var result = triangle(s1,s2,s3);
 
+    $(".result_type").text(result);
 
-//   var result = " ";
-//
-//     if (input.length === input.width) {
-//         result = "triangle";
-//     }
-//
-//   return result;
-//
-// };
+    $("#result").show();
+    event.preventDefault();
+
+  });
+});
