@@ -1,4 +1,6 @@
-<b>Triangle Detector </b>
+<h1>>Triangle Detector </h1>
+
+<b>Description</b>
 
 Lets the user input the lengths of the sides of a triangle, and returns whether they form an equilateral, isosceles, or scalene triangle.
 
@@ -14,11 +16,6 @@ jQuery<br>
 HTML<br>
 CSS<br>
 Bootstrap<br>
-
-
-<b>Description</b>
-
-This simple app takes the lengths of the sides of a triangle and tells the user what type of triangle it is.
 
 <b>Setup Instructions</b>
 
