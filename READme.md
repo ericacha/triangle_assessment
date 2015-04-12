@@ -15,7 +15,7 @@ Chai.js<br>
 jQuery<br>
 HTML<br>
 CSS<br>
-Bootstrap<br>
+
 
 <b>Setup Instructions</b>
 

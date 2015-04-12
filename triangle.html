@@ -5,7 +5,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.2.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Leap year detector</title>
+    <title> Triangle Detector</title>
   </head>
   <body>
     <div class="container">
@@ -13,15 +13,19 @@
 
       <form id = "triangle">
         <div class = "form-group">
-          <label for="s1,s2,s3"> Enter the dimensions and find out if it's a triangle (example:2,2,2): </label>
-          <input id = "s1,s2,s3" type ="text">
+          <label for="s1"> Enter s1: </label>
+          <input id = "s1" type ="text">
+          <label for="s2"> Enter s2: </label>
+          <input id = "s2" type ="text">
+          <label for="s3"> Enter s3: </label>
+          <input id = "s3" type ="text">
         </div>
 
         <button type="submit" class="btn">Find out!</button>
       </form>
 
       <div id = "result">
-        <p> The shape is a/an :<span class="result_type"></span></p>
+        <p> The shape is a/an :<span class="result_triangleType"></span></p>
 
       </div>
     </div>
