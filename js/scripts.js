@@ -4,9 +4,12 @@ var triangle = function(s1,s2,s3) {
 var triangleType = "none";
 
 
-//compare each side of the triangle to make sure they are all the same
+//compare each sides of the triangle to make sure they are all the same
 if ((s1 === s2) && (s2 ===s3) && (s3 === s1)) {
     triangleType = "equilateral";
+//
+} else if (s1 + s2 <= s3) {
+   triangleType = "Not a triangle";
 //compare two sides of the triangle to make sure they are same
  } else if ((s1 === s2) || (s2 ===s3) || (s1 === s3)) {
     triangleType = "isosceles";
@@ -16,12 +19,6 @@ if ((s1 === s2) && (s2 ===s3) && (s3 === s1)) {
  }
 
 return triangleType;
-
-
-
-
-
-
 };
 
 
