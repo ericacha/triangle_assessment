@@ -38,3 +38,7 @@ body {
 img.sad {
   width: 34%;
 }
+
+#result btn {
+  display:none;
+}

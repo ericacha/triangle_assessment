@@ -14,7 +14,7 @@ if ((s1 === s2) && (s2 ===s3) && (s3 === s1)) {
 //moved this function above 'isoscles', otherwise it would not output 'not a triangle' due to its condition
 } else if ((s1 + s2 <= s3) || (s2 + s3 <= s1) || (s3 + s1 <= s2)) {
   $(".sad").show();
-   triangleType = "Sorry, looks like it's not a triangle. Please try again.";
+   triangleType = "Sorry, looks like it's not a triangle.";
 //compare all combination of two sides of the triangle to make sure they are same
  } else if ((s1 === s2) || (s2 ===s3) || (s1 === s3)) {
    $(".isosceles").show();
