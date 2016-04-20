@@ -8,17 +8,33 @@ body {
 }
 
 .container {
-  margin-top: 13%;
+  margin:4% 0 0 2%;
   text-align: center;
   border: solid #fff;
   border-radius: 25px;
-  padding:1% 0 4%;
-}
+  padding:1% 0 2%;
 
+}
+/*
 .form-group {
   display: inline-flex;
-}
+}*/
 
 .form-group input {
       padding: 1%;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 2%;
+}
+
+#result img {
+  display:none;
+}
+
+img.sad {
+  width: 34%;
 }

@@ -8,29 +8,50 @@
     <title> Triangle Detector</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Triangle Detector</h1>
-      <p>Please enter the dimensions of your triangle</p>
-
-      <form id = "triangle">
-        <div class = "form-group">
-
-          <input id = "s1" type="number" placeholder=" Enter Side 1:" required> <br>
-
-          <input id = "s2" type="number" placeholder=" Enter Side 2:" required> <br>
-
-          <input id = "s3" type="number" placeholder=" Enter Side 3:" required> <br>
-        </div>
-
-        <button type="submit" class="btn">Find out!</button>
-
-        <button type="submit" class="btn">  <a href="/triangle_assessment/triangle.html">Refresh</a></button>
-      </form>
-
-      <div id = "result">
-        <h3> <span class="result_triangleType"></span></h3>
-
-      </div>
+    <div class="col-sm-12 title">
+        <h1>What Makes A Triangle? </h1>
     </div>
+
+    <div class="col-sm-4 container">
+        <h1>Did you know? </h1>
+        <p> Scalene: is a triangle that has three unequal sides.</p>
+        <p> Equilateral: a triangle with all three sides of equal length. </p>
+        <p> Isosceles: is a triangle with (at least) two equal sides. </p>
+
+    </div>
+    <div class="col-sm-4 container">
+        <h1>Triangle Detector</h1>
+        <p>Please enter the dimensions of your triangle</p>
+
+        <form id = "triangle">
+            <div class = "form-group">
+
+              <input id = "s1" type="number" placeholder=" Enter Side 1:" required> <br><br>
+
+              <input id = "s2" type="number" placeholder=" Enter Side 2:" required> <br><br>
+
+              <input id = "s3" type="number" placeholder=" Enter Side 3:" required> <br>
+            </div>
+
+            <button type="submit" class="btn">Find out!</button>
+
+            <button type="submit" class="btn">  <a href="/triangle_assessment/triangle.html">Clear</a></button>
+        </form>
+
+
+    </div>
+
+    <div class="col-sm-3 container">
+        <h1>Results </h1>
+        <div id = "result">
+        <!--show text of results -->
+        <h3> <span class="result_triangleType"></span></h3>
+        <!--show images of results per img class -->
+          <img class="equilateral" src="img/equilateral.png">
+          <img class="isosceles" src="img/isosceles.png">
+          <img class="scalene" src="img/scalene.png">
+          <img class="sad" src="img/sad.png">
+        </div>
+  </div>
   </body>
 </html>
