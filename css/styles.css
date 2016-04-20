@@ -10,6 +10,9 @@ body {
 .container {
   margin-top: 13%;
   text-align: center;
+  border: solid #fff;
+  border-radius: 25px;
+  padding:1% 0 4%;
 }
 
 .form-group {
