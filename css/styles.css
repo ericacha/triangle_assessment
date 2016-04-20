@@ -2,6 +2,11 @@
   display: none;
 }
 
+body {
+  background-color: steelblue;
+
+}
+
 .container {
   margin-top: 13%;
   text-align: center;
