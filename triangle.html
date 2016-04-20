@@ -10,18 +10,21 @@
   <body>
     <div class="container">
       <h1>Triangle Detector</h1>
+      <p>Please enter the dimensions of your triangle</p>
 
       <form id = "triangle">
         <div class = "form-group">
-          <label for="s1"> Enter Side 1: </label>
-          <input id = "s1" type ="text"> <br>
-          <label for="s2"> Enter Side 2: </label>
-          <input id = "s2" type ="text"><br>
-          <label for="s3"> Enter Side 3: </label>
-          <input id = "s3" type ="text">
+
+          <input id = "s1" type="number" placeholder=" Enter Side 1:" required> <br>
+
+          <input id = "s2" type="number" placeholder=" Enter Side 2:" required> <br>
+
+          <input id = "s3" type="number" placeholder=" Enter Side 3:" required> <br>
         </div>
 
         <button type="submit" class="btn">Find out!</button>
+
+        <a href="/"><button type="submit" class="btn">Refresh</button></a>
       </form>
 
       <div id = "result">
